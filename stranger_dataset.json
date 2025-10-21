@@ -1,0 +1,269 @@
+{
+  "catalog": {
+    "es_policia": "¿Es policía en Hawkins?",
+    "abre_portales": "¿Abre portales entre mundos?",
+    "devora_humanos": "¿Caza o devora humanos?",
+    "hermana_max": "¿Tu personaje tiene una hermana que se llama Max?",
+    "cicatrices": "¿Tiene el cuerpo con cicatrices o aspecto deformado?",
+    "boca_petalo": "¿Tiene una boca que se abre como una flor?",
+    "sombrero": "¿Usa sombrero?",
+    "sangrado_nariz": "¿Le sangra la nariz al usar poderes?",
+    "tiene_poderes": "¿Tiene superpoderes?",
+    "puede_mover_objetos_con_su_mente": "¿Puede mover objetos con su mente?",
+    "pertenece_al_grupo_hellfire": "¿Pertenece al grupo HELLFIRE?",
+    "ha_sido_controlado_por_desuellamentes": "¿Ha sido controlado por Desuellamentes?"
+  },
+  "personajes": [
+    {
+      "nombre": "Eleven",
+      "atributos": {
+        "genero": "Femenino",
+        "rol": "humano",
+        "origen": "Hawkins",
+        "cabello_color": "castaño",
+        "cabello_longitud": "corto",
+        "es_policia": false,
+        "abre_portales": true,
+        "devora_humanos": false,
+        "hermana_max": false,
+        "cicatrices": false,
+        "boca_petalo": false,
+        "sombrero": false,
+        "sangrado_nariz": true,
+        "tiene_poderes": true,
+        "puede_mover_objetos_con_su_mente": true
+      },
+      "confirm": [
+        {
+          "attr": "es_policia",
+          "value": false,
+          "question": "¿Es policía en Hawkins?"
+        },
+        {
+          "attr": "abre_portales",
+          "value": true,
+          "question": "¿Abre portales entre mundos?"
+        },
+        {
+          "attr": "devora_humanos",
+          "value": false,
+          "question": "¿Caza o devora humanos?"
+        },
+        {
+          "attr": "hermana_max",
+          "value": false,
+          "question": "¿Tu personaje tiene una hermana que se llama Max?"
+        },
+        {
+          "attr": "cicatrices",
+          "value": false,
+          "question": "¿Tiene el cuerpo con cicatrices o aspecto deformado?"
+        },
+        {
+          "attr": "boca_petalo",
+          "value": false,
+          "question": "¿Tiene una boca que se abre como una flor?"
+        },
+        {
+          "attr": "sombrero",
+          "value": false,
+          "question": "¿Usa sombrero?"
+        },
+        {
+          "attr": "sangrado_nariz",
+          "value": true,
+          "question": "¿Le sangra la nariz al usar poderes?"
+        },
+        {
+          "attr": "tiene_poderes",
+          "value": true,
+          "question": "¿Tiene superpoderes?"
+        },
+        {
+          "attr": "puede_mover_objetos_con_su_mente",
+          "value": true,
+          "question": "¿Puede mover objetos con su mente?"
+        },
+        {
+          "attr": "puede_mover_objetos_con_su_mente",
+          "value": true,
+          "question": "¿Puede mover objetos con su mente?"
+        }
+      ]
+    },
+    {
+      "nombre": "Mike",
+      "atributos": {
+        "genero": "Masculino",
+        "rol": "humano",
+        "origen": "Hawkins",
+        "cabello_color": "negro",
+        "cabello_longitud": "medio",
+        "complexion": "Delgado/a",
+        "es_policia": false,
+        "abre_portales": false,
+        "devora_humanos": false,
+        "hermana_max": false,
+        "cicatrices": false,
+        "boca_petalo": false,
+        "sombrero": false,
+        "sangrado_nariz": false,
+        "tiene_poderes": false,
+        "puede_mover_objetos_con_su_mente": false,
+        "pertenece_al_grupo_hellfire": true
+      },
+      "confirm": [
+        {
+          "attr": "es_policia",
+          "value": false,
+          "question": "¿Es policía en Hawkins?"
+        },
+        {
+          "attr": "abre_portales",
+          "value": false,
+          "question": "¿Abre portales entre mundos?"
+        },
+        {
+          "attr": "devora_humanos",
+          "value": false,
+          "question": "¿Caza o devora humanos?"
+        },
+        {
+          "attr": "hermana_max",
+          "value": false,
+          "question": "¿Tu personaje tiene una hermana que se llama Max?"
+        },
+        {
+          "attr": "cicatrices",
+          "value": false,
+          "question": "¿Tiene el cuerpo con cicatrices o aspecto deformado?"
+        },
+        {
+          "attr": "boca_petalo",
+          "value": false,
+          "question": "¿Tiene una boca que se abre como una flor?"
+        },
+        {
+          "attr": "sombrero",
+          "value": false,
+          "question": "¿Usa sombrero?"
+        },
+        {
+          "attr": "sangrado_nariz",
+          "value": false,
+          "question": "¿Le sangra la nariz al usar poderes?"
+        },
+        {
+          "attr": "tiene_poderes",
+          "value": false,
+          "question": "¿Tiene superpoderes?"
+        },
+        {
+          "attr": "puede_mover_objetos_con_su_mente",
+          "value": false,
+          "question": "¿Puede mover objetos con su mente?"
+        },
+        {
+          "attr": "pertenece_al_grupo_hellfire",
+          "value": true,
+          "question": "¿Pertenece al grupo HELLFIRE?"
+        },
+        {
+          "attr": "pertenece_al_grupo_hellfire",
+          "value": true,
+          "question": "¿Pertenece al grupo HELLFIRE?"
+        }
+      ]
+    },
+    {
+      "nombre": "Billy",
+      "atributos": {
+        "genero": "Masculino",
+        "rol": "monstruo",
+        "origen": "Hawkins",
+        "cabello_color": "rubio",
+        "cabello_longitud": "largo",
+        "complexion": "Musculoso/a",
+        "es_policia": false,
+        "abre_portales": false,
+        "devora_humanos": true,
+        "hermana_max": true,
+        "cicatrices": true,
+        "boca_petalo": false,
+        "sombrero": false,
+        "sangrado_nariz": false,
+        "tiene_poderes": true,
+        "puede_mover_objetos_con_su_mente": false,
+        "pertenece_al_grupo_hellfire": false,
+        "ha_sido_controlado_por_desuellamentes": true
+      },
+      "confirm": [
+        {
+          "attr": "es_policia",
+          "value": false,
+          "question": "¿Es policía en Hawkins?"
+        },
+        {
+          "attr": "abre_portales",
+          "value": false,
+          "question": "¿Abre portales entre mundos?"
+        },
+        {
+          "attr": "devora_humanos",
+          "value": true,
+          "question": "¿Caza o devora humanos?"
+        },
+        {
+          "attr": "hermana_max",
+          "value": true,
+          "question": "¿Tu personaje tiene una hermana que se llama Max?"
+        },
+        {
+          "attr": "cicatrices",
+          "value": true,
+          "question": "¿Tiene el cuerpo con cicatrices o aspecto deformado?"
+        },
+        {
+          "attr": "boca_petalo",
+          "value": false,
+          "question": "¿Tiene una boca que se abre como una flor?"
+        },
+        {
+          "attr": "sombrero",
+          "value": false,
+          "question": "¿Usa sombrero?"
+        },
+        {
+          "attr": "sangrado_nariz",
+          "value": false,
+          "question": "¿Le sangra la nariz al usar poderes?"
+        },
+        {
+          "attr": "tiene_poderes",
+          "value": true,
+          "question": "¿Tiene superpoderes?"
+        },
+        {
+          "attr": "puede_mover_objetos_con_su_mente",
+          "value": false,
+          "question": "¿Puede mover objetos con su mente?"
+        },
+        {
+          "attr": "pertenece_al_grupo_hellfire",
+          "value": false,
+          "question": "¿Pertenece al grupo HELLFIRE?"
+        },
+        {
+          "attr": "ha_sido_controlado_por_desuellamentes",
+          "value": true,
+          "question": "¿Ha sido controlado por Desuellamentes?"
+        },
+        {
+          "attr": "ha_sido_controlado_por_desuellamentes",
+          "value": true,
+          "question": "¿Ha sido controlado por Desuellamentes?"
+        }
+      ]
+    }
+  ]
+}
